@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp">
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/background">
+
+        <TextView
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/tvfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên file"
+            android:textColor="@color/color_file2" />
+
+        <ImageView
+           android:layout_marginRight="@dimen/margin_10dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/ivFile"
+            android:layout_width="@dimen/margin_20dp"
+            android:layout_height="@dimen/margin_20dp"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_toRightOf="@+id/tvfile"
+            android:src="@drawable/ic_tuchoi"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_toRightOf="@+id/rl"
+        android:layout_width="@dimen/margin_10dp"
+        android:layout_height="30dp"
+        tools:ignore="NotSibling" />
+</RelativeLayout>

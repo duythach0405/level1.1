@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="chonquocgia">
+        <item>Việt Nam</item>
+        <item>Hoa Kỳ</item>
+        <item>Anh</item>
+        <item>Pháp</item>
+    </string-array>
+</resources>

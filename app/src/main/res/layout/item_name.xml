@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_width="@dimen/margin_15dp"
+        android:layout_height="@dimen/margin_15dp"
+        android:src="@drawable/ic_tuchoi"/>
+    <ImageView
+        android:layout_width="@dimen/margin_15dp"
+        android:layout_height="@dimen/margin_15dp"
+        android:src="@drawable/ic_doituong"
+        android:id="@+id/ivname"/>
+    <TextView
+        android:text="Lê thanh mai"
+        android:id="@+id/tvname"
+        android:layout_toRightOf="@id/ivname"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Fragment1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:textColor="@color/color_mau2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/phutrach"
+                    android:textSize="@dimen/size_20sp" />
+
+                <RelativeLayout
+                    android:id="@+id/rlcompany"
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/color_mau2"
+                        android:id="@+id/tvcompany"
+                        android:text="Công ty TNHH Đông Nam Á"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <ImageView
+                        android:src="@drawable/down_arrow"
+                        android:id="@+id/ivcompany"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="@dimen/margin_10dp"
+                        android:layout_height="@dimen/margin_10dp"/>
+
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/tvcompany"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:background="@android:color/darker_gray"/>
+                <RelativeLayout
+                    android:id="@+id/rloffice"
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="@color/color_mau2"
+                        android:id="@+id/tvoffice"
+                        android:text="Phòng chăm sóc khách hàng"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <ImageView
+                        android:src="@drawable/down_arrow"
+                        android:id="@+id/ivoffice"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="@dimen/margin_10dp"
+                        android:layout_height="@dimen/margin_10dp"/>
+
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/tvoffice"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:background="@android:color/darker_gray" />
+                <RelativeLayout
+                    android:id="@+id/rlten"
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="@color/color_mau2"
+                        android:id="@+id/tvten"
+                        android:text="Lê Thu Mai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <ImageView
+                        android:src="@drawable/down_arrow"
+                        android:id="@+id/ivoten"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="@dimen/margin_10dp"
+                        android:layout_height="@dimen/margin_10dp"/>
+
+
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/tvten"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:background="@android:color/darker_gray" />
+                <RelativeLayout
+                    android:id="@+id/rlinbrand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_marginTop="@dimen/margin_20dp">
+
+                    <TextView
+                        android:textColor="@color/color_mau2"
+                        android:id="@+id/tvinbrand"
+                        android:text="Inbrand"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <ImageView
+                        android:src="@drawable/down_arrow"
+                        android:id="@+id/ivinbrand"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="@dimen/margin_10dp"
+                        android:layout_height="@dimen/margin_10dp"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/tvinbrand"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:background="@android:color/darker_gray" />
+                <RelativeLayout
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycler"
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@id/recycler"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:background="@android:color/darker_gray" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlfacebook"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_20dp">
+
+                    <TextView
+                        android:textColor="@color/color_mau2"
+                        android:textSize="@dimen/size_15sp"
+                        android:id="@+id/txtnguon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nguồn:" />
+
+                    <TextView
+                        android:layout_toRightOf="@id/txtnguon"
+                        android:textColor="@color/color_mau2"
+                        android:id="@+id/tvfacebook"
+                        android:text="FaceBook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <ImageView
+                        android:src="@drawable/down_arrow"
+                        android:id="@+id/ivfacbook"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="@dimen/margin_10dp"
+                        android:layout_height="@dimen/margin_10dp"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/tvfacebook"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:background="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_below="@id/ll1"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:background="@android:color/darker_gray" />
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_below="@id/txt1"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textColor="@color/color_mau2"
+                    android:textSize="@dimen/size_20sp"
+                    android:text="@string/yeucau"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                android:textColor="@color/color_mau2"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:text="@string/mainhan"
+                android:textSize="@dimen/size_15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:background="@android:color/darker_gray" />
+                <TextView
+                    android:textColor="@color/color_mau2"
+                    android:textSize="@dimen/size_15sp"
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:text="@string/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:background="@android:color/darker_gray" />
+                <TextView
+                    android:textColor="@color/color_mau2"
+                    android:textSize="@dimen/size_15sp"
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:text="@string/sdt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_below="@id/ll2"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:background="@android:color/darker_gray" />
+            <LinearLayout
+                android:id="@+id/ll3"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_below="@id/txt2"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/color_mau2"
+                        android:textSize="@dimen/size_15sp"
+                        android:text="@string/thoigiantao"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textColor="@color/color_mau2"
+                        android:textSize="@dimen/size_15sp"
+                        android:text=" 20/04/2020 16:30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/color_mau2"
+                        android:textSize="@dimen/size_15sp"
+                        android:text="Người tạo: "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textColor="@color/color_mau2"
+                        android:textSize="@dimen/size_15sp"
+                        android:text="@string/chamsockhachhang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_below="@id/ll3"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:padding="@dimen/margin_10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/ll4"
+                android:layout_below="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rlbrand"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/txtbrand"
+                        android:textSize="@dimen/size_15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Brand: "/>
+                    <TextView
+                        android:layout_toRightOf="@id/txtbrand"
+                        android:textColor="@color/color_mau2"
+                        android:id="@+id/tvbrand"
+                        android:text="Brand ACB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <ImageView
+                        android:src="@drawable/down_arrow"
+                        android:id="@+id/ivbrand"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="@dimen/margin_10dp"
+                        android:layout_height="@dimen/margin_10dp"/>
+                </RelativeLayout>
+                <TextView
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+            <LinearLayout
+                android:padding="@dimen/margin_10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/ll5"
+                android:layout_below="@+id/ll4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:id="@+id/rlmodel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_10dp">
+                    <TextView
+                        android:id="@+id/txtmodel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Model: "/>
+                    <TextView
+                        android:layout_toRightOf="@id/txtmodel"
+                        android:textColor="@color/color_mau2"
+                        android:id="@+id/tvmodel"
+                        android:text="Model XYZ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <ImageView
+                        android:src="@drawable/down_arrow"
+                        android:id="@+id/ivmodel"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="@dimen/margin_10dp"
+                        android:layout_height="@dimen/margin_10dp"/>
+                </RelativeLayout>
+                <TextView
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="@dimen/margin_10dp"
+                android:id="@+id/ll6"
+                android:layout_below="@+id/ll5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:id="@+id/rlma"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_10dp">
+                    <TextView
+                        android:id="@+id/txtma"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Mã sản phẩm: "/>
+                    <TextView
+                        android:layout_toRightOf="@id/txtma"
+                        android:textColor="@color/color_mau2"
+                        android:id="@+id/tvma"
+                        android:text="PR 0001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <ImageView
+                        android:src="@drawable/down_arrow"
+                        android:id="@+id/ivma"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="@dimen/margin_10dp"
+                        android:layout_height="@dimen/margin_10dp"/>
+                </RelativeLayout>
+                <TextView
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_below="@id/ll6"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:background="@android:color/darker_gray" />
+            <LinearLayout
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="@dimen/margin_10dp"
+                android:id="@+id/ll7"
+                android:layout_below="@+id/txt4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:orientation="vertical">
+                    <TextView
+                        android:textSize="@dimen/size_15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/ticketlienquan"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="@dimen/margin_10dp"
+                android:id="@+id/ll8"
+                android:layout_below="@+id/ll7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:id="@+id/rlmucdo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_10dp">
+                    <TextView
+                        android:id="@+id/txtmucdo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Mức độ ưu tiên: "/>
+                    <TextView
+                        android:layout_toRightOf="@id/txtmucdo"
+                        android:textColor="@color/color_mau2"
+                        android:id="@+id/tvmucdo"
+                        android:text="Mediumn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <ImageView
+                        android:src="@drawable/down_arrow"
+                        android:id="@+id/ivmucdo"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="@dimen/margin_10dp"
+                        android:layout_height="@dimen/margin_10dp"/>
+                </RelativeLayout>
+                <TextView
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="@dimen/margin_10dp"
+                android:id="@+id/ll9"
+                android:layout_below="@+id/ll8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:id="@+id/rldeadline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="@dimen/size_15sp"
+                        android:id="@+id/txtdeadline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Deadline: "/>
+                    <TextView
+                        android:id="@+id/tvdeadline"
+                        android:textColor="@color/color_mau2"
+                        android:textSize="@dimen/size_15sp"
+                        android:layout_toRightOf="@id/txtdeadline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2019 - 03 - 19"/>
+                    <ImageView
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/margin_10dp"
+                        android:src="@drawable/ic_phuongtien"
+                        android:layout_width="@dimen/margin_20dp"
+                        android:layout_height="@dimen/margin_20dp"/>
+                </RelativeLayout>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="@dimen/margin_10dp"
+                android:id="@+id/ll10"
+                android:layout_below="@+id/ll9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:id="@+id/rlstyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_10dp">
+                    <TextView
+                        android:id="@+id/txtstyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Loại ticket: "/>
+                    <TextView
+                        android:layout_toRightOf="@id/txtstyle"
+                        android:textColor="@color/color_mau2"
+                        android:id="@+id/tvstyle"
+                        android:text="Khiếu nại"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <ImageView
+                        android:src="@drawable/down_arrow"
+                        android:id="@+id/ivstyle"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="@dimen/margin_10dp"
+                        android:layout_height="@dimen/margin_10dp"/>
+                </RelativeLayout>
+                <TextView
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</FrameLayout>

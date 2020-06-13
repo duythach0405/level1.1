@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">level1</string>
+    <string name="thongtincanhan">Thông tin cá nhân</string>
+    <string name="doimatkhau">Đổi mật khẩu</string>
+    <string name="muigio">Múi giờ</string>
+    <string name="quocgia">Quốc gia</string>
+    <string name="congty">Công ty TNHH ABC </string>
+    <string name="congty2">Công ty Cổ phần đầu tư XYZ</string>
+    <string name="thietlaplich">Thiết lập lịch</string>
+    <string name="hopthietkeinoxmessager">Hộp thiết kế INOS messeger</string>
+    <string name="meeting">Meeting</string>
+    <string name="thongnhatthietke">Thống nhất thiết kế cho INOS Messenger và bàn giao thiết kế</string>
+    <string name="privat">Private</string>
+    <string name="baocaobanhang">Báo cáo bán hàng - DMS</string>
+    <string name="filedinhkem">File đính kèm</string>
+    <string name="diachi">Địa chỉ</string>
+    <string name="themthanhphan">Thêm thành phần tham gia</string>
+    <string name="themsukienlienquan">Thêm sự kiện liên quan</string>
+    <string name="xemchitiet">Xem chi tiết</string>
+    <string name="themthongtin">Thêm thông tin</string>
+    <string name="mucdichcongviec">Mục đích công việc</string>
+    <string name="co2sukienlienquan">Có hai sự kiện liên quan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phutrach">PHỤ TRÁCH</string>
+    <string name="yeucau">YÊU CẦU</string>
+    <string name="mainhan">Mai Nhâm</string>
+    <string name="email">mainham95@gmail.com</string>
+    <string name="sdt">0495566922</string>
+    <string name="thoigiantao">Thời gian tạo: </string>
+    <string name="chamsockhachhang">Chăm sóc khách hàng</string>
+    <string name="ticketlienquan">Ticket liên quan</string>
+    <string name="mucdouutien">Mức độ ưu tiên: </string>
+    <string name="office">phòng chăm sóc khách hàng</string>
+</resources>

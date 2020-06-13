@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/trangchu"
+          android:icon="@drawable/ic_phuongtien"
+          android:title="Trang chủ"></item>
+    <item android:id="@+id/lich"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_doituong"
+        android:title="Lịch"/>
+    <item android:id="@+id/tinnhan"
+          android:icon="@drawable/ic_checked"
+          android:title="Tin nhắn"/>
+    <item android:id="@+id/thongbao"
+        android:icon="@drawable/ic_chuaphanhoi"
+        android:title="Thông báo"/>
+    <item android:id="@+id/tuychon"
+        android:icon="@drawable/ic_congcuhotro"
+        android:title="Tùy chọn"/>
+
+</menu>
